@@ -2,3 +2,6 @@
 * [Visial Studio Code 설치](https://code.visualstudio.com/)
 * [GIT 설치](https://www.git-scm.com/)
 * [GitHub](https://github.com/)
+* [장고 공식 문서 사이트](https://www.djangoproject.com/)
+* [장고 공식 소스 저장소](http://github.com/django/django)
+* [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
