@@ -2,7 +2,7 @@
 
 * [파이썬 ORM](https://github.com/vinta/awesome-python#orm)
 * [django.db.backends](https://github.com/django/django/tree/master/django/db/backends)
-* [models](https://docs.djangoproject.com/en/2.1/ref/models/)
+* [models](https://docs.djangoproject.com/en/2.1/topics/db/models/)
 * [Field types](https://docs.djangoproject.com/ko/2.1/ref/models/fields/#model-field-types)
 * [Field options](https://docs.djangoproject.com/ko/2.1/ref/models/fields/#common-model-field-options)
 * [Model Meta options](https://docs.djangoproject.com/en/2.1/ref/models/options/)
