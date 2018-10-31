@@ -28,7 +28,7 @@ REGION_CHOICE = (
   ('Asia','아시아'),
   ('North America','북아메리카'),
   ('South America','남아메리카'),
-  )
+)
 
 
 ```
