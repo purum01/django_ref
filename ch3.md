@@ -31,4 +31,11 @@ REGION_CHOICE = (
 )
 
 
+def lnglat_validator(value):
+	if not re.match(r'(\d+\.?\d*),(\d+\.?\d*)$', value):
+		raise ValidationError('Invalid LngLat Type') 
+
+
+
+
 ```
