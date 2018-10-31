@@ -10,11 +10,11 @@
 * [Many-to-one relationships](https://docs.djangoproject.com/ko/2.1/topics/db/examples/many_to_one/)
 * [Many-to-many relationships](https://docs.djangoproject.com/ko/2.1/topics/db/examples/many_to_many/)
 * [One-to-one relationships](https://docs.djangoproject.com/ko/2.1/topics/db/examples/one_to_one/)
+* [django.contrib.auth.models](https://github.com/django/django/blob/master/django/contrib/auth/models.py)
 * [Migrations](https://docs.djangoproject.com/ko/2.1/topics/migrations/)
 
 
 ### Django admin app
-* [django.contrib.auth.models](https://github.com/django/django/blob/master/django/contrib/auth/models.py)
 * [The Django admin site](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/)
 * [ModelAdmin 소스](https://docs.djangoproject.com/en/2.1/_modules/django/contrib/admin/options/#ModelAdmin)
 * [ModelAdmin options](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#modeladmin-options)
