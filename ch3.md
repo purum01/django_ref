@@ -14,6 +14,7 @@
 
 
 ### Django admin app
+* [django.contrib.auth.models](https://github.com/django/django/blob/master/django/contrib/auth/models.py)
 * [The Django admin site](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/)
 * [ModelAdmin 소스](https://docs.djangoproject.com/en/2.1/_modules/django/contrib/admin/options/#ModelAdmin)
 * [ModelAdmin options](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#modeladmin-options)
