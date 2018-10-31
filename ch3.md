@@ -17,3 +17,18 @@
 * [The Django admin site](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/)
 * [ModelAdmin 소스](https://docs.djangoproject.com/en/2.1/_modules/django/contrib/admin/options/#ModelAdmin)
 * [ModelAdmin options](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#modeladmin-options)
+
+
+### 실습 코드
+```
+REGION_CHOICE = (
+  ('Africa','아프리카'),
+  ('Europe','유럽'),
+  ('Oceania','오세아니아'),
+  ('Asia','아시아'),
+  ('North America','북아메리카'),
+  ('South America','남아메리카'),
+  )
+
+
+```
