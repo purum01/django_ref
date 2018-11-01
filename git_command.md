@@ -1,3 +1,5 @@
+# git 명령문
+
 ### 저장소로 보낼때
 ~~~
 git config --global user.name "사용자이름"
