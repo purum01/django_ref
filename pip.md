@@ -1,0 +1,17 @@
+requirements.txt
+---
+~~~
+virtualenv
+django==2.1.1
+django-extensions==2.1.2
+django-debug-toolbar
+ipython[notebook]
+pillow
+pilkit
+django-imagekit
+django-allauth==0.37.0
+pandas
+django-storages
+boto3
+pymysql
+~~~
