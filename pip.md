@@ -8,6 +8,7 @@ django-debug-toolbar
 ipython[notebook]
 pillow
 pilkit
+requests
 django-imagekit
 django-allauth==0.37.0
 pandas
