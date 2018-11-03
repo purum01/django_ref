@@ -1,4 +1,4 @@
-myproject/layout.html
+myproject/templates/layout.html
 ---
 ```html
 {% load static %}
