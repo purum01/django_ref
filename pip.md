@@ -3,6 +3,7 @@ requirements.txt
 ~~~
 virtualenv
 django==2.1.1
+pandas
 django-extensions==2.1.2
 django-debug-toolbar
 ipython[notebook]
@@ -11,7 +12,6 @@ pilkit
 requests
 django-imagekit
 django-allauth==0.37.0
-pandas
 django-storages
 boto3
 pymysql
