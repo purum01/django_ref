@@ -43,11 +43,15 @@ myproject/templates/layout.html
                         <li><a href="#">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li> <a href="">회원가입</a> </li>
-                        <li> <a href="">로그인</a> </li>
-                        <li> <a href="">프로필</a> </li>
-                        <li> <a href="">로그아웃</a> </li>
-
+                        {% if not user.is_authenticated %}
+                            <li> <a href="{% url 'signup' %}">회원가입</a> </li>
+                            <li> <a href="{% url 'login' %}?next={{request.path}}" >로그인</a> </li>
+                        {% else %}
+                            <li> <a href="{% url 'profile' %}" >프로필</a> </li>
+                            <li> <a href="{% url 'logout' %}?next={{request.path}}" >로그아웃</a> </li>
+                            <li> <a href="#">{{user}}</a></li>
+                            <li> <a href="#">{{today}}</a></li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
@@ -58,6 +62,13 @@ myproject/templates/layout.html
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
+                {% if messages %}
+                    <ul>
+                        {% for message in messages %}
+                            <li>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %} 
                 {% block content %}
                 {% endblock %}
             </div>            
