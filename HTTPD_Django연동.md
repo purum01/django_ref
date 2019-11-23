@@ -1,7 +1,7 @@
 
 C:\Apache24\conf\httpd.conf 파일 수정
 ---
-'''xml
+```xml
 
   Define SRVROOT "C:/Apache24"
   ServerRoot "${SRVROOT}"
@@ -9,4 +9,4 @@ C:\Apache24\conf\httpd.conf 파일 수정
   ServerName localhost
   DocumentRoot "${SRVROOT}/htdocs"
   
-'''
+```
