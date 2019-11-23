@@ -1,3 +1,13 @@
+* [아파치 서버](https://www.apachelounge.com/download/)
+* [C++ 컴파일러](https://visualstudio.microsoft.com/ko/downloads/ )
+* wsgi 모듈 설치  
+  pip install mod_wsgi
+* [mod_wsgi 모듈 Windows 바이너리](https://www.lfd.uci.edu/~gohlke/pythonlibs/#mod_wsgi)  
+  pip install "mod_wsgi-4.6.8+ap24vc14-cp36-cp36m-win_amd64.whl"
+* 파일 복사  
+  C:\ProgramData\Anaconda3\Lib\site-packages\mod_wsgi\server\mod_wsgi.cp36-win_amd64.pyd  
+  C:\Apache24\modules\mod_wsgi.cp36-win_amd64.pyd  
+
 
 C:\Apache24\conf\httpd.conf 파일 수정
 ---
