@@ -33,3 +33,16 @@ C:\Apache24\conf\httpd.conf 파일 수정
   </VirtualHost>
   
 ```
+wsgi.py
+---
+```python
+import sys
+sys.path.append('C:/Apache24/htdocs/mysite')
+```
+
+settings.py
+---
+```python
+STATIC_ROOT = os.path.join('c:/apache24/htdocs/','mysite', 'pubstatic')
+
+```
