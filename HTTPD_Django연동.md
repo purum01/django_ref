@@ -53,6 +53,6 @@ sys.path.append('C:/Apache24/htdocs/mysite')
 settings.py
 ---
 ```python
-STATIC_ROOT = os.path.join('c:/apache24/htdocs/','mysite', 'pubstatic')
+STATIC_ROOT = os.path.join('c:/Apache24/htdocs/','mysite', 'pubstatic')
 
 ```
