@@ -14,11 +14,11 @@ date/time filter 코드
 ~~~python
 # views.py
 def test(request):
-past_dt = timezone.datetime(1971,8,22,0,0)
-criteria_dt = timezone.datetime(2001,3,19,0,0)
-future_dt = timezone.datetime(2037,1,1,0,0)
-return render(request, 'mytest/test.html', {'datetime_obj':now,'past_dt':past_dt,
-                                           'criteria_dt':criteria_dt,'future_dt':future_dt})
+  past_dt = timezone.datetime(1971,8,22,0,0)
+  criteria_dt = timezone.datetime(2001,3,19,0,0)
+  future_dt = timezone.datetime(2037,1,1,0,0)
+  return render(request, 'mytest/test.html', {'datetime_obj':now,'past_dt':past_dt,
+                                             'criteria_dt':criteria_dt,'future_dt':future_dt})
 
 # test.html
 <hr>
