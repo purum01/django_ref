@@ -51,8 +51,10 @@ def test(request):
     value5 = "Send questions to foo@example.com"
 
     return render(request, 'mytest/test.html', {'people':people, 'person':person, 'person_list':person_list, 
-                                                'datetime_obj':now, 'past_dt':past_dt, 'criteria_dt':criteria_dt, 'future_dt':future_dt,
-                                                'value':value, 'value1':value1, 'value2':value2, 'value3':value3, 'value4':value4, 'value5':value5, 'msg':msg})
+                                                'datetime_obj':now, 'past_dt':past_dt, 'criteria_dt':criteria_dt, 
+                                                'future_dt':future_dt, 'value':value, 'value1':value1,
+                                                'value2':value2, 'value3':value3, 'value4':value4,
+                                                'value5':value5, 'msg':msg})
 
 ~~~
 
