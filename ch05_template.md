@@ -43,7 +43,7 @@ def test(request):
     '''
 
 
-    value = '<b>Joel</b> \n is a slug'
+    value = '<b>Joel</b> <button>is</button> a <span>slug</span>'
     value1 = 'Joel is a slug'
     value2 = '<p>Joel is a slug</p>'
     value3 = "https://www.example.org/foo?a=b&c=d"
