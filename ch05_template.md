@@ -16,7 +16,7 @@ filter 코드
 from django.utils import timezone
 
 def test(request):
-    people = ['Amy', 'Josh', 'Tobey', 'Josh']
+    people = ['Amy', 'Josh', 'Tobey', 'John']
     person = Person('Amy')
     person_list = []
     now = timezone.now()
