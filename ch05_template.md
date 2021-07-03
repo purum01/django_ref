@@ -15,6 +15,13 @@ filter 코드
 # views.py
 from django.utils import timezone
 
+class Person():
+    def __init__(self, name):
+        self.name = name
+
+    def say_hello(self):
+        return 'hello'
+        
 def test(request):
     people = ['Amy', 'Josh', 'Tobey', 'John']
     person = Person('Amy')
