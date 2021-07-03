@@ -2,7 +2,6 @@
 
 * [Template API](https://docs.djangoproject.com/en/2.1/ref/templates/api/)
 * [resolve_url( )](https://github.com/django/django/blob/master/django/shortcuts.py#LC119)
-* [Django-Specific Standards](https://engineering.vokal.io/Systems/django.md.html)
 * [Built-in template tags and filters](https://docs.djangoproject.com/en/2.1/ref/templates/builtins)
 * [Custom template tags and filters](https://docs.djangoproject.com/en/2.1/howto/custom-template-tags/)
 * [Date Format](https://docs.djangoproject.com/en/2.1/ref/templates/builtins/#date)
