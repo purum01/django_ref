@@ -15,7 +15,7 @@ filter 코드
 # views.py
 from django.utils import timezone
 
-class Person():
+class Person:
     def __init__(self, name):
         self.name = name
 
