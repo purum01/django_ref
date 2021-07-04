@@ -9,13 +9,3 @@
 * [Built-in validators](https://docs.djangoproject.com/en/2.1/ref/validators/#built-in-validators)
 * [Form.add_error(field, error)](https://docs.djangoproject.com/en/2.1/ref/forms/api/#django.forms.Form.add_error)
 
-
-MultiValueDict&QueryDict
----
-~~~python
-from django.utils.datastructures import MultiValueDict
-from django.http import QueryDict
-
-d = MultiValueDict({'name':['Amy','Tobey'], 'position':['Developer']})
-qd = QueryDict('name=Amy&name=Tobey&position=Developer', encoding='utf8')
-~~~
