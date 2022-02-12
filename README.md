@@ -3,3 +3,4 @@
 * [장고 공식 소스 저장소](http://github.com/django/django)
 * [장고 참조 문서 영어](https://docs.djangoproject.com/en/2.1/)
 * [장고 참조 문서 한글](https://code.i-harness.com/ko/docs/django~2.1/index)
+* [배포](https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/)
