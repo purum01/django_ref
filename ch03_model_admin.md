@@ -28,7 +28,7 @@ DB 환경 변수
 
 DATABASES = {
   'default': {
-    'ENGINE': 'DB_ENGINE','django.db.backends.mysql',
+    'ENGINE': 'django.db.backends.mysql',
     'HOST':  DB  주소,
     'USER': 계정,
     'PASSWORD': 비밀번호,
