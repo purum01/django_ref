@@ -22,3 +22,21 @@
 * [ModelAdmin options](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#modeladmin-options)
 
 
+DB 환경 변수
+---
+~~~python
+import os
+import pymysql
+pymysql.install_as_MySQLdb()
+
+DATABASES = {
+  'default': {
+    'ENGINE': os.environ.get('DB_ENGINE','django.db.backends.mysql'),
+    'HOST': os.environ['DB_HOST'],
+    'USER': os.environ['DB_USER'],
+    'PASSWORD': os.environ['DB_PASSWORD'],
+    'NAME': os.environ['DB_NAME'],
+    'PORT': os.environ['DB_PORT'],
+  },
+}
+~~~
