@@ -31,7 +31,7 @@ DATABASES = {
     'ENGINE': 'django.db.backends.mysql',
     'HOST': DB  서버 주소,
     'PORT': DB 서버 포트,
-    'NAME': DB명,
+    'NAME': DB 이름,
     'USER': 계정,
     'PASSWORD': 비밀번호,
   },
