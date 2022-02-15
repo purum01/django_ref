@@ -1,7 +1,7 @@
 requirements.txt
 ---
 ~~~
-django==2.1.1
+django==2.1.5
 pylint-django
 pandas
 django-extensions==2.1.2
