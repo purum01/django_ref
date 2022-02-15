@@ -29,11 +29,11 @@ DB 환경 변수
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.mysql',
-    'HOST':  DB  주소,
+    'HOST': DB  서버 주소,
+    'PORT': DB 서버 포트,
+    'NAME': DB명,
     'USER': 계정,
     'PASSWORD': 비밀번호,
-    'NAME': DB명,
-    'PORT': DB 서버 포트,
   },
 }
 ~~~
