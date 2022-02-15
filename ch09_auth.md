@@ -26,8 +26,8 @@
 ### Session
 * [SessionMiddleware](https://github.com/django/django/blob/2.1.1/django/contrib/sessions/middleware.py)
 * [SessionStore](https://github.com/django/django/blob/master/django/contrib/sessions/backends/db.py)
-
 * [MiddlewareMixin](https://github.com/django/django/blob/2.1.1/django/utils/deprecation.py#LC82)
+* [session문서](https://docs.djangoproject.com/en/4.0/topics/http/sessions/)
 
 OAuth
 ---
