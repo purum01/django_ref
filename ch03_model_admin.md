@@ -31,12 +31,12 @@ pymysql.install_as_MySQLdb()
 
 DATABASES = {
   'default': {
-    'ENGINE': os.environ.get('DB_ENGINE','django.db.backends.mysql'),
-    'HOST': os.environ['DB_HOST'],
-    'USER': os.environ['DB_USER'],
-    'PASSWORD': os.environ['DB_PASSWORD'],
-    'NAME': os.environ['DB_NAME'],
-    'PORT': os.environ['DB_PORT'],
+    'ENGINE': 'DB_ENGINE','django.db.backends.mysql',
+    'HOST':  DB  주소,
+    'USER': 계정,
+    'PASSWORD': 비밀번호,
+    'NAME': DB명,
+    'PORT': DB 서버 포트,
   },
 }
 ~~~
