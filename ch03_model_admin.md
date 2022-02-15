@@ -25,9 +25,6 @@
 DB 환경 변수
 ---
 ~~~python
-import os
-import pymysql
-pymysql.install_as_MySQLdb()
 
 DATABASES = {
   'default': {
