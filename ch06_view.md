@@ -1,6 +1,6 @@
 # Chapter6
 
-* [Class-based views](https://docs.djangoproject.com/en/2.1/topics/class-based-views/)
+* [Class-based views](https://ccbv.co.uk/)
 * [django.views.generic](https://github.com/django/django/tree/2.1/django/views/generic)
 * [Built-in class-based views API](https://docs.djangoproject.com/en/2.1/ref/class-based-views/)
 * [View](https://github.com/django/django/blob/master/django/views/generic/base.py)
